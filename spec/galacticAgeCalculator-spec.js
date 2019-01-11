@@ -14,4 +14,7 @@ var newAge;
     expect(newAge.calculateVenusYears()).toEqual(40);
   });
 
+  it('should return the mars Age', function() {
+    expect(newAge.calculateMarsYears()).toEqual(13);
+  });
 });
