@@ -3,24 +3,28 @@
   <head>
     <meta charset="utf-8">
     <title>Galactic Age Calculator</title>
+    <h3>Your age in Other worlds !!!</h3>
   </head>
   <body>
     <div class="container">
 
-    <form id="myForm" >
+    <form id="ageCalculator" class = "form-class">
 
-    <div>
-      <label for="age">Text Input:</label>
-      <input type="text" name="name" id="age" placeholder="Enter your age" tabindex="1">
+    <div class = "form-group">
+      <label for="age">User Age:</label>
+      <input type="text" name="name" id="age" class = "form-control" placeholder="Enter your age" tabindex="1">
     </div>
 
     <div>
-      <input type="submit" value="Submit">
-    </div>
-
-    <div>
-      <input type="submit" value="Calculate my gaactic Age">
+      <input type="submit" value="Calculate">
     </div>
     </form>
+  </div>
+  <div class = "container" id = "otherPlanetAge">
+    <p>You Age in Mercury is :<span id = "mecuryYears"></span></p>
+    <p>You Age in Venus is :<span id = "venusYears"></span></p>
+    <p>You Age in Mars is :<span id = "marsYears"></span></p>
+    <p>You Age in Jupiter is :<span id = "jupiterYears"></span></p>
+  </div>
   </body>
 </html>

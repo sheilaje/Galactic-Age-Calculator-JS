@@ -1,6 +1,6 @@
 # Galactic Age Calculator
 
-#### This Javascript application calculates the users age in different planets, based on the number of days in a year in each planet.
+###### This Javascript application calculates the users age in different planets, based on the number of days in a year in each planet.
 
 #### By Sheila Stephen
 
