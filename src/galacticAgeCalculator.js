@@ -12,6 +12,11 @@ class Age {
     this.venusYears = Math.round(this.userAge/0.62);
     return this.venusYears;
   }
+
+  calculateMarsYears() {
+    this.marsYears = Math.round(this.userAge/1.88);
+    return this.marsYears;
+  }
   }
 
 export { Age };

@@ -16,6 +16,8 @@ $(document).ready(function()
     $("#mecuryYears").text(mercuryAge);
     let venusAge = newAge.calculateVenusYears();
     $("#venusYears").text(venusAge);
+    let marsAge = newAge.calculateMarsYears();
+    $("#marsYears").text(marsAge);
   });
 
 // console.log(userAge);
