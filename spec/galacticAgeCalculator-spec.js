@@ -17,4 +17,8 @@ var newAge;
   it('should return the mars Age', function() {
     expect(newAge.calculateMarsYears()).toEqual(13);
   });
+
+  it('should return the jupiter Age', function() {
+    expect(newAge.calculateJupiterYears()).toEqual(2);
+  });
 });
