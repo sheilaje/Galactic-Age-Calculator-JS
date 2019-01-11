@@ -9,4 +9,7 @@ var newAge;
   it('should return the mercury Age', function() {
     expect(newAge.calculateMercuryYears()).toEqual(104);
   });
+  it('should return the venus Age', function() {
+    expect(newAge.calculateVenusYears()).toEqual(40);
+  });
 });
