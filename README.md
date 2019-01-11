@@ -1,51 +1,38 @@
-# Romanize Arabic Numbers
+# Galactic Age Calculator
 
-#### Changes Arabic numbers into Roman numerals
+#### This Javascript application calculates the users age in different planets, based on the number of days in a year in each planet.
 
-#### By Phil Mass & Scott Bergler
+#### By Sheila Stephen
 
-## Description
+### Specs:
 
-This program takes a numeric input and return that number in Roman numerals.
-
-### Specifications:
-#### Spec: for 1
-- [x] ** Expect: ** romanize(1) === "I";
-
-#### Spec: for up to 3
-- [x] ** Expect: ** romanize(3) === "III";
-
-#### Spec: for up to 4
-- [x] ** Expect: ** romanize(4) === "IV";
-
-#### Spec: for up to 8
-- [x] ** Expect: ** romanize(8) === "VIII";
-
-#### Spec: for up to 9
-- [x] ** Expect: ** romanize(9) === "IX";
-
-#### Spec: split input into 1000's, 100's 10's, & 1's
-- [x] ** Expect: ** parseTenBase(2345) === "2000, 300, 40, 5";
-
-#### Spec: pass each place number to convertDigit
-- [x] ** Expect: ** romanize(2348) === "MMCCCXLVIII";
+1. Get the length of the year in a planet relative to the earth.And calculate the age of the user in that particular planet.
+eg. Mercury - 0.24 years
+    user Age - 15
+    output - 62.5
 
 
 ## Setup/Installation Requirements
-Not available yet.
+To build the project
+. Clone the project from https://github.com/sheilaje/Galactic-Age-Calculator-JS to local directory.
+. IN terminal, go to the project directory and install the dependencies:
+              npm install
+. Start the server using
+              npm run start
+. The application will open in a browser at the address localhost:8080
 
-## Known Bugs
+To run the tests (using Jasmine and Karma)
 
-## Support and contact details
-
-Don't do it.
+. In a terminal, go to teh project directory and run the tests using the command:
+              npm test
+karma should open a browser with the results of the tests at the local host:9876
 
 ## Technologies Used
 
-HTML, CSS, & Javascript.
+Javascript. Built with webpack, Jasmine, Karma, Babel and ESLint.
 
 ### License
 
 Licensed under the MIT license.
 
-Copyright (c) 2018 ** Scott Bergler & Phil Mass **
+Copyright (c) 2019 ** Sheila Stephen **
