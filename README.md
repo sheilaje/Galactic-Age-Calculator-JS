@@ -10,7 +10,10 @@
 eg. Mercury - 0.24 years
     user Age - 15
     output - 62.5
-
+2. Based on the users lifestyle active state, set a lifespan for each state , and based on users reply to the particular question, detemint the remaining life span in each planet.
+eg. input - less Active.
+    lifespan =70
+    output - mercury life Expectancy - 142.
 
 ## Setup/Installation Requirements
 To build the project
